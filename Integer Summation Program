@@ -1,0 +1,9 @@
+print("整数求和程序")
+n=int(input("请输入大于0的整数:"))
+if n>=0:
+    total=0
+    for i in range(1,n+1):
+        total+=i
+    print(f"1到{n}之间整数的和是{total}")
+else:
+    print("该数值无效，请输入大于0的整数")
